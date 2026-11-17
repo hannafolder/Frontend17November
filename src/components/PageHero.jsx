@@ -1,0 +1,2 @@
+import React from 'react';import {Link} from 'react-router-dom';
+export default function PageHero({title}){return <section className="inner-hero"><div className="inner-hero-shade"/><div className="inner-hero-content"><h1>{title}</h1><div><Link to="/">Home</Link><i className="bi bi-chevron-right"/><span>{title}</span></div></div></section>}
